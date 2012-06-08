@@ -1,0 +1,60 @@
+#latarMenu {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9000;
+	display:block;
+	background-color:#000000;
+	opacity:0;
+}
+#menuKanan {
+	position:absolute;
+	display:none;
+	z-index:9999;
+	background:#212121;
+	border:1px solid #302F2F;
+	width:220px;
+	height:215px; 
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 0 2px #000;
+	-webkit-box-shadow:0 0 2px #000;
+	-o-box-shadow:0 0 2px #000;
+	border-box-shadow:0 0 2px #000;
+}
+#menuKanan ul {
+	list-style:none;
+	margin:0;
+	padding:0 10px;
+}
+#menuKanan ul li {
+	list-style:none;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #302F2F;
+	padding:5px 0;
+}
+#menuKanan ul li:first-child {
+	border-top:none;
+}
+#menuKanan ul li:last-child {
+	border-bottom:none;
+}
+#menuKanan ul li a {
+	color:#FAFAFA;
+	border:none;
+	display:block;
+	text-decoration:none;
+	padding-left:28px;
+	line-height:24px;
+}
+#menuKanan ul li a:hover {
+	color:#000000;
+}
+#menuKanan ul li .facebook {background:transparent url('../img/facebook.png') no-repeat top left;}
+#menuKanan ul li .twitter {background:transparent url('../img/twitter.png') no-repeat top left;}
+#menuKanan ul li .delicious {background:transparent url('../img/delicious.png') no-repeat top left;}
+#menuKanan ul li .stumble {background:transparent url('../img/stumbleupon.png') no-repeat top left;}
+#menuKanan ul li .reddit {background:transparent url('../img/reddit.png') no-repeat top left;}
+#menuKanan ul li .digg {background:transparent url('../img/digg.png') no-repeat top left;}
