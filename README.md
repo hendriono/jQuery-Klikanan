@@ -1,4 +1,1 @@
-jQuery-Klikanan
-===============
-
-jQuery Menu Klik Kanan - A replacer right-click menu on the browser with jQuery
+# jQuery-Klikanan###DeskripsijQuery Menu Klik Kanan - A replacer right-click menu on the browser with jQuery.Plugin ini digunakan untuk mengganti menu klik kanan browser menjadi menu yang sesuai dengan keinginan kita.###PenggunaanFramework jQuery dan Plugin:>`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>`>`<script src=".../jquery.klikanan.min.js"></script>`Seting Default:>`$('#areaKlik').klikanan();`Setting Lengkap:>`$('#areaKlik').klikanan({> speed: 400,> overlay: false>});`###InformasiDemo [Plugin jQuery Right-Click Menu](http://jsfiddle.net/hendriono/n5PLv/1/show/)Tutorial [Blogger Tune-Up](http://modification-blog.blogspot.com/2012/06/plugin-jquery-menu-klik-kanan.html)
